@@ -1,0 +1,17 @@
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\bin\Debug\net6.0\CQRS.Mediator.RepositoryLayer.deps.json
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\bin\Debug\net6.0\CQRS.Mediator.RepositoryLayer.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\bin\Debug\net6.0\CQRS.Mediator.RepositoryLayer.pdb
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.AssemblyInfo.cs
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\refint\CQRS.Mediator.RepositoryLayer.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.pdb
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\ref\CQRS.Mediator.RepositoryLayer.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\bin\Debug\net6.0\CQRS.Mediator.Model.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\bin\Debug\net6.0\CQRS.Mediator.Model.pdb
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.csproj.CopyComplete
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\bin\Debug\net6.0\CQRS.Mediator.RepositoryLayer.runtimeconfig.json
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.RepositoryLayer\obj\Debug\net6.0\CQRS.Mediator.RepositoryLayer.genruntimeconfig.cache

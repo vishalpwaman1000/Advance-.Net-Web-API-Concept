@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Jx6d24T8B3RvAMelEHoRoiGHDvFMsesutAZ6NOikIXI=",
+  "Source": "CQRS.MediatR.API",
+  "BasePath": "_content/CQRS.MediatR.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

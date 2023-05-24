@@ -1,0 +1,12 @@
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\bin\Debug\net6.0\CQRS.Mediator.Model.deps.json
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\bin\Debug\net6.0\CQRS.Mediator.Model.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\bin\Debug\net6.0\CQRS.Mediator.Model.pdb
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.csproj.AssemblyReference.cache
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.AssemblyInfoInputs.cache
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.AssemblyInfo.cs
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.csproj.CoreCompileInputs.cache
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\refint\CQRS.Mediator.Model.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\CQRS.Mediator.Model.pdb
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.Mediator.Model\obj\Debug\net6.0\ref\CQRS.Mediator.Model.dll
