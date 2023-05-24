@@ -30,14 +30,13 @@ builder.Services.AddAutoMapper(typeof(Program));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-//app.ConfigureExceptionHandler(app.Environment);
-//
+app.ConfigureExceptionHandler(app.Environment);
+/*
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-/*
 else
 {
     app.UseSwagger();
