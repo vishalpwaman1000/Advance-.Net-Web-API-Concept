@@ -20,6 +20,7 @@ namespace CQRS.MediatR.API.Controllers
     [Route("api/[controller]/[Action]")]
     [ApiController]
     [ActionFilterAttribute("CrudController")]
+    [ResourceFilterAttribute]
     public class CrudController : ControllerBase
     {
         private readonly ICrudSL _crudSL;
