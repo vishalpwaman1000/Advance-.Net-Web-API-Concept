@@ -7,8 +7,7 @@ namespace CQRS.MediatR.API.Middleware
     {
         public static void ConfigureExceptionHandler(this IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseSwagger();
-            app.UseSwaggerUI();
+            
             if (!env.IsDevelopment())
             {
                 app.UseExceptionHandler(options =>

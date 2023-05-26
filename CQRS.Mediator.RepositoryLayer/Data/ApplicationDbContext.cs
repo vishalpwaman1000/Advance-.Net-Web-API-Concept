@@ -16,5 +16,6 @@ namespace CQRS.Mediator.RepositoryLayer.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<fact_user_master> fact_user_master { get; set; }
     }
 }

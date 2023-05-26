@@ -9,6 +9,8 @@ namespace CQRS.Mediator.RepositoryLayer
 {
     public interface ICrudRL
     {
+        public Task<BasicResponse> Register(RegisterRequest request);
+        public Task<LoginResponse> Login(RegisterRequest request);
         public Task<BasicResponse> InsertOperation(InsertRequest request);
         public Task<BasicResponse> UpdateOperation(UpdateRequest request);
         public Task<BasicResponse> DeleteOperation(int Id);

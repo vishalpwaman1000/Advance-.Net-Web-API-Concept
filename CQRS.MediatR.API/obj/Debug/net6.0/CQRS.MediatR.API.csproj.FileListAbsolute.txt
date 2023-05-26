@@ -74,3 +74,4 @@ C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.MediatR.API\bin\Debug\ne
 C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.MediatR.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.MediatR.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.MediatR.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\VishalWaman\source\repos\CQRS.MediatR.API\CQRS.MediatR.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

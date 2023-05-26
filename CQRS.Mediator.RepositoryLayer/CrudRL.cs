@@ -11,10 +11,75 @@ namespace CQRS.Mediator.RepositoryLayer
     public class CrudRL : ICrudRL
     {
         private readonly ApplicationDbContext _applicationDbContext;
-        public CrudRL(ApplicationDbContext applicationDbContext) 
+        public CrudRL(ApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
         }
+
+        public async Task<LoginResponse> Login(RegisterRequest request)
+        {
+            LoginResponse response = new LoginResponse();
+            response.IsSuccess = true;
+            response.Message = "Login Successfully";
+            try
+            {
+                var Result = _applicationDbContext
+                    .fact_user_master
+                    .Where(X => X.EmailID.ToLower() == request.EmailID.ToLower() &&
+                              X.Password == request.Password).FirstOrDefault();
+                if (Result == null)
+                {
+                    response.IsSuccess = false;
+                    response.Message = "Login In Failed";
+                    return response;
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                response.IsSuccess = false;
+                response.Message = ex.Message;
+            }
+
+            return response;
+        }
+
+        public async Task<BasicResponse> Register(RegisterRequest request)
+        {
+            BasicResponse response = new BasicResponse();
+            response.IsSuccess = true;
+            response.Message = "Registration Successfully";
+            try
+            {
+                bool Found = _applicationDbContext.fact_user_master.Any(X=>X.EmailID.ToLower()==request.EmailID.ToLower());
+                if (Found)
+                {
+                    response.IsSuccess = false;
+                    response.Message = "Email Already Exist.";
+                    return response;
+                }
+
+                await _applicationDbContext.AddAsync(new fact_user_master()
+                {
+                    InsertionDate = DateTime.Now,
+                    EmailID = request.EmailID,
+                    Password = request.Password,
+                });
+
+                await _applicationDbContext.SaveChangesAsync();
+
+            }
+            catch (Exception ex)
+            {
+                response.IsSuccess = false;
+                response.Message = ex.Message;
+            }
+
+            return response;
+
+        }
+
         public async Task<BasicResponse> DeleteOperation(int Id)
         {
             BasicResponse response = new BasicResponse()
@@ -109,9 +174,9 @@ namespace CQRS.Mediator.RepositoryLayer
             {
                 await _applicationDbContext.AddAsync(new Employee()
                 {
-                    InsertionDate=DateTime.Now,
-                    Name=request.Name,
-                    Age=request.Age
+                    InsertionDate = DateTime.Now,
+                    Name = request.Name,
+                    Age = request.Age
                 });
                 await _applicationDbContext.SaveChangesAsync();
             }
@@ -133,8 +198,8 @@ namespace CQRS.Mediator.RepositoryLayer
             };
             try
             {
-                var ResultSet =  _applicationDbContext.Employees.Where(X => X.Id == request.Id).FirstOrDefault();
-                if(ResultSet == null)
+                var ResultSet = _applicationDbContext.Employees.Where(X => X.Id == request.Id).FirstOrDefault();
+                if (ResultSet == null)
                 {
                     response.IsSuccess = false;
                     response.Message = "Data Not Found";

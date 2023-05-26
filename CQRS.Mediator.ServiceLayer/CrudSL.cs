@@ -16,6 +16,16 @@ namespace CQRS.Mediator.ServiceLayer
             _crudRL = crudRL;
         }
 
+        public async Task<LoginResponse> Login(RegisterRequest request)
+        {
+            return await _crudRL.Login(request);
+        }
+
+        public async Task<BasicResponse> Register(RegisterRequest request)
+        {
+            return await _crudRL.Register(request);
+        }
+
         public async Task<BasicResponse> DeleteOperation(int Id)
         {
             return await _crudRL.DeleteOperation(Id);

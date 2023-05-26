@@ -44,6 +44,30 @@ namespace CQRS.Mediator.RepositoryLayer.Migrations
 
                     b.ToTable("Employees");
                 });
+
+            modelBuilder.Entity("CQRS.Mediator.Model.fact_user_master", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"), 1L, 1);
+
+                    b.Property<string>("EmailID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("InsertionDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("fact_user_master");
+                });
 #pragma warning restore 612, 618
         }
     }
